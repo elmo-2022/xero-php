@@ -62,7 +62,7 @@ class Event
     {
         $this->webhook = $webhook;
         $fields = [
-            'resourceUrl',
+            // 'resourceUrl', // We need disable this field as required because Xero is not sending it
             'resourceId',
             'eventDateUtc',
             'eventType',
